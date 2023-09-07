@@ -1,0 +1,123 @@
+/* Styles for Header */
+h1 {
+  font-size: 36px;
+  color: #ffd700; /* Yellow */
+  text-transform: uppercase;
+  font-weight: 400; /* Normal */
+  font-family: Arial, Helvetica, sans-serif; /* Formal font */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for Table */
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.tbl-header {
+  background-color: #ffd700; /* Yellow */
+}
+
+.tbl-content {
+  height: 400px;
+  overflow-x: auto;
+  margin-top: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 600; /* Semi-bold */
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400; /* Normal */
+  font-size: 16px;
+  color: #000;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Additional Styles */
+section {
+  margin: 50px;
+  overflow-x: hidden;
+}
+
+/* Animation Styles */
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 900px) {
+  section {
+    margin: 10px;
+  }
+
+  th {
+    padding: 8px 2px;
+    font-size: 14px; /* Slightly larger font on small screens */
+  }
+
+  td {
+    padding: 8px;
+    font-size: 12px; /* Slightly larger font on small screens */
+  }
+
+  h1 {
+    font-size: 24px; /* Slightly smaller font on small screens */
+  }
+}
