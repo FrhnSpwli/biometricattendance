@@ -9,10 +9,12 @@ session_start();
 <header>
 <div class="header">
 	<div class="logo">
-		<a href="index.php">Biometric Attendance</a>
+		<a href="index.php">
+		<img src="assets/okif.svg" alt="logo" class="okif" />
+		<p>ORGANISASI KEMAHASISWAAN INFORMATIKA<br>FAKULTAS TEKNIK - UNIVERSITAS HASANUDDIN</p>
+		</a>
 	</div>
 </div>
-
 <div class="topnav" id="myTopnav">
 	<a href="index.php">Users</a>
     <a href="UsersLog.php">Users Log</a>
