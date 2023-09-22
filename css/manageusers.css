@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
 .form-style-5 {
   max-width: 490px;
   height: 850px;
@@ -7,7 +12,6 @@
   padding: 20px;
   background: #f4f7f8;
   border-radius: 8px;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .form-style-5 fieldset {
   border: none;
@@ -26,7 +30,6 @@
 .form-style-5 input[type="email"],
 .form-style-5 input[type="number"],
 .form-style-5 input[type="time"] {
-  font-family: Georgia, "Times New Roman", Times, serif;
   background: rgba(255, 255, 255, 0.1);
   border: none;
   border-radius: 4px;
@@ -107,7 +110,6 @@
   border: 1px solid #2e6b32;
   background: -webkit-linear-gradient(left, #70c276, #2e6b32);
   background: linear-gradient(to right, #70c276, #2e6b32);
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -115,7 +117,6 @@ h1 {
   color: #000;
   text-transform: uppercase;
   font-weight: 300;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   text-align: center;
   margin-bottom: 15px;
 }
